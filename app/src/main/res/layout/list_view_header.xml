@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_view_header"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@android:color/holo_green_dark"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/to_home"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/home_bt"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Photo List"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

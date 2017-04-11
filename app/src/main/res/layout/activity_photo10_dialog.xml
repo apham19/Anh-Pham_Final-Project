@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vothuong.anh_pham_final_project.Dialog.Photo1_dialog"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Photo 10"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="6dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/page_10"
+        android:scaleType="fitCenter"/>
+    <Button
+        android:id="@+id/dialog_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textSize="36sp" />
+</LinearLayout>
